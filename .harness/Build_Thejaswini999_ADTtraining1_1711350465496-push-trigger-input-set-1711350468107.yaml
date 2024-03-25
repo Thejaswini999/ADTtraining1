@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Thejaswini999_ADTtraining1_1711350465496-push-trigger-input-set
+  identifier: Build_Thejaswini999_ADTtraining1_1711350465496pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Thejaswini999_ADTtraining1_1711350465496
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
